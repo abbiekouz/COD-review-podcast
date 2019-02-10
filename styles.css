@@ -16,7 +16,6 @@ h2 {
 
 ol {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -27,4 +26,14 @@ li {
 
 img {
     width: 100px;
+}
+
+@media (max-width: 480px) {
+    li {
+        width:100%;
+    }
+    
+    img {
+        width: 100%;
+    }
 }
